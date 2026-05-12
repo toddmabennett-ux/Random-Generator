@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body{
+    background: #0f0f0f;
+    color: #eaeaea;
+    padding: 40px 20px;
+}
+
+.pg-header{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.pg-header h1{
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+
+.pg-hero-text{
+    font-size: 1.2rem;
+    opacity: 0.8;
+    text-align: center;
+}
+
+.pg-generator{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 50px auto;
+    flex-wrap: wrap;
+}
+
+.pg-box{
+    background: #1a1a1a;
+    padding: 25px;
+    border-radius: 12px;
+    width: 280px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    border: 1px solid #222;
+}
+
+.pg-box h3{
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+}
+
+.pg-output{
+    background: #111;
+    padding: 15px;
+    border-radius: 8px;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    border: 1px solid #222;
+}
+
+.pg-btn{
+    background: transparent;
+    border: 1px solid #3dd5ff;
+    color: #3dd5ff;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s ease;
+    font-size: 1rem;
+}
+
+.pg-btn:hover{
+    background: #3dd5ff;
+    color: #0f0f0f;
+}
+
+.pg-final{
+    max-width: 700px;
+    margin: 60px auto;
+    text-align: center;
+}
+
+.pg-final h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.pg-final-output{
+    background: #1a1a1a;
+    padding: 25px;
+    border-radius: 12px;
+    min-height: 100px;
+    font-size: 1.2rem;
+    border: 1px solid #222;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+.pg-copy-btn{
+    margin-top: 20px;
+    background: transparent;
+    border: 1px solid #3dd5ff;
+    color: #3dd5ff;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s ease;
+    font-size: 1.1rem;
+}
+
+.pg-copy-btn:hover{
+    background: #3dd5ff;
+    color: #0f0f0f;
+}
+
+.pg-footer{
+    text-align: center;
+    margin-top: 60px;
+    opacity: 0.6;
+    font-size: 0.9rem;
+}
+
+.bmac-link{
+    color: #3dd5ff;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 1rem;
+}
+
+.bmac-link img{
+    height: 80px;
+    width: auto;
+    display: inline-block;
+}
+.portfolio-link img{
+    height: 80px;
+    width: auto;
+    display: inline-block;
+}
